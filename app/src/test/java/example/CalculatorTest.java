@@ -10,9 +10,13 @@ public class CalculatorTest {
         calculator = new Calculator();
     }
     @Test
-    public void testAddBasic() {
+    public void testAddBasic1() {
         Assert.assertEquals(4, calculator.add(1, 3));
     }
+    public void testAddBasic2() {
+        Assert.assertEquals(8, calculator.add(2, 6));
+    }
+
     @Test
     public void testMinusBasic() {
         Assert.assertEquals(10, calculator.minus(15, 5));
